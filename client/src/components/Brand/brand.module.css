@@ -1,0 +1,65 @@
+.brandBox{
+  width: 33vw;
+  border: 2px rgb(230, 230, 230) solid;
+  border-radius: 4px;
+  margin: 20px;
+  background-color: #fafafa;
+}
+
+.brandName{
+  margin: 20px;
+  border-bottom: 1.5px rgb(230, 230, 230) solid;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandName > h1{
+  display: inline;
+}
+
+.brandLogo{
+  height: 48px;
+  width: 48px;
+  border: 0 black solid;
+  border-radius: 25px;
+}
+
+.projects{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects > div {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects > div > h3{
+  color: #152370;
+  font-size: 18px;
+}
+
+.projects > div > span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.projectCompleted{
+  border-right: 1.5px rgb(230, 230, 230) solid;
+}
+
+.projectLive{
+  border-right: 1.5px rgb(230, 230, 230) solid;
+}
+
+

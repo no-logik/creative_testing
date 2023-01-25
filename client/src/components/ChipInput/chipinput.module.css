@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito+Sans:wght@300;400&display=swap'); 
+
+.field{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  color: #152370;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Noto Sans', sans-serif;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+
+.input{
+  color: #8090E7;
+  background-color: #F7F8FE;
+  border: 1px solid #EFF1FC;
+  height: 40px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.input::placeholder{
+  color: #8090E7;
+  vertical-align: middle;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+.chip{
+  position: relative;
+  color: #152370;
+  font-weight: 600;
+  padding: 6px 20px;
+  border: 2px solid #CFD5F6;
+  border-radius: 30px;
+  background-color: #EFF1FC;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chipcross{
+  color: #CFD5F6;
+  position: absolute;
+  right: 3px;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}

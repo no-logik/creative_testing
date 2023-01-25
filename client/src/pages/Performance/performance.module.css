@@ -1,0 +1,89 @@
+.btnDiv{
+  padding: 20px;
+  padding-left: 40px;
+}
+
+.btn{
+  font-weight: 600;
+  color: #0869FB;
+  border: 3px solid #0869FB;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+
+.criteriaBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.criteriaBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 40px;
+  padding-left: 20px;
+  background-color: #fbfcfc;
+  color: #4b4c4c;
+  width: 200px;
+  border: 0 solid #000;
+  border-radius: 5px;
+}
+
+.icon{
+  margin-right: 20px;
+  border: 2px dashed #EFF0F0;
+  width: 40px;
+  height: 40px;
+  background-color: #EFF0F0;
+}
+
+.data{
+  font-size: 18px;
+  font-weight: 700;
+  color: #4b4c4c;
+}
+
+.criteriaBtn div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.insightcontainer{
+  margin: 40px;
+  padding: 20px;
+  width: 60vw;
+  background-color: rgb(255, 255, 255);
+  border: 0 solid rgb(94, 94, 94);
+  box-shadow: 1px 1px 1px rgb(221, 221, 221), -1px -1px 1px rgb(221, 221, 221);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dataBox{
+  background-color: #F7F8FE;
+  border: 0 solid #000;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.dataBox h2{
+  color:  #152370;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dataBox span{
+  color: #4253A9;
+  font-size: 14px;
+}
+
+.insightcontainer img{
+  height: 50vh;
+}

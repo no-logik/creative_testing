@@ -1,0 +1,12 @@
+.container{
+  padding: 20px;
+}
+
+.search{
+  border: 2px black solid;
+  width: fit-content  ;
+}
+
+.searach-button{
+  height: 20px;
+}

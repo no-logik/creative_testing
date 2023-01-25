@@ -1,0 +1,16 @@
+agency ki list
+brands ki list (isme agency ki id hogi)
+projects ki list (isme project ki id hogi ek attribute)
+creative ki list (project id hpgi ek attribute)
+
+
+Table agency{
+  id,
+  date created,
+  total spends,
+  total projects,
+    
+}
+
+<BellIcon className={styles.notification} />
+<ChevronDownIcon className={styles.downicon} />
