@@ -1,6 +1,6 @@
 # creative-testing
 
-This is an intern project for pixis
+Creative-testing dashboard
 
 To run the app
 
